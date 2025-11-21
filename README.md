@@ -1,4 +1,4 @@
-# Bitwarden Environment Manager
+# Bitwarden Environment Manager (BWEM)
 
 A simple bash script to load environment variables from Bitwarden secure notes.
 
@@ -11,7 +11,7 @@ A simple bash script to load environment variables from Bitwarden secure notes.
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/F2BEAR/bwem
 cd secretManager
 ```
 
