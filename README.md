@@ -5,7 +5,7 @@ A simple bash script to load environment variables from Bitwarden secure notes.
 ## Prerequisites
 
 - [Bitwarden CLI](https://bitwarden.com/help/cli/) installed
-- `jq` for JSON parsing
+- [jq](https://jqlang.org/) for JSON parsing
 
 ## Installation
 
@@ -15,21 +15,7 @@ git clone <repository-url>
 cd secretManager
 ```
 
-2. Install Bitwarden CLI:
-```bash
-npm install -g @bitwarden/cli
-```
-
-3. Install jq:
-```bash
-# Ubuntu/Debian
-sudo apt install jq
-
-# macOS
-brew install jq
-```
-
-4. Make the script executable:
+2. Make the script executable:
 ```bash
 chmod +x bw-env.sh
 ```
