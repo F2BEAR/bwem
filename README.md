@@ -12,7 +12,7 @@ A simple bash script to load environment variables from Bitwarden secure notes.
 1. Clone this repository:
 ```bash
 git clone https://github.com/F2BEAR/bwem
-cd secretManager
+cd bwem
 ```
 
 2. Make the script executable:
