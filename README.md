@@ -17,7 +17,7 @@ cd secretManager
 
 2. Make the script executable:
 ```bash
-chmod +x bw-env.sh
+chmod +x bwem.sh
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ API_KEY=your-secret-key
 
 2. Load the variables into your current terminal session:
 ```bash
-source bw-env.sh <note-name>
+source bwem.sh <note-name>
 ```
 
 3. The script will:
@@ -42,7 +42,7 @@ source bw-env.sh <note-name>
 ## Example
 
 ```bash
-source bw-env.sh "Production Secrets"
+source bwem.sh "Production Secrets"
 ```
 
 The variables will remain available in your terminal until you close it or manually unset them.
